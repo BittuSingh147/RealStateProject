@@ -12,6 +12,9 @@ export default function Home() {
 
   const popularCities = [
     { name: 'Hyderabad', image: '/hyderbad.png' },
+    { name: 'Bangalore', image: '/banglore.webp' },
+    { name: 'Delhi', image: '/delhi.jpg' },
+    { name: 'Mumbai', image: '/mumbai.webp' }
   ];
 
   const handleSearch = (e: React.FormEvent) => {
